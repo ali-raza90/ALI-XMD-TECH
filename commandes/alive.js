@@ -3,15 +3,15 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const { zokou } = require("../framework/zokou");
 
 zokou(
-  { nomCom: "alive", reaction: "👊", nomFichier: __filename },
+  { nomCom: "alive", reaction: "🌎", nomFichier: __filename },
   async (dest, zk, commandeOptions) => {
     console.log("Alive command triggered!");
 
     // URLs and configurations
-    const fullImageUrl = "https://i.ibb.co/n6rw805/694affc7ca5a5fb0cb58c2b4533f962d.jpg"; // Full image URL
-    const smallThumbnailUrl = "https://i.ibb.co/n6rw805/694affc7ca5a5fb0cb58c2b4533f962d.jpg"; // Small thumbnail URL
+    const fullImageUrl = "https://cdn.ironman.my.id/q/BXTKN.jpg"; // Full image URL
+    const smallThumbnailUrl = "https://cdn.ironman.my.id/q/BXTKN.jpg"; // Small thumbnail URL
     const randomAudio = "https://files.catbox.moe/wdap4t.mp3"; // Voice note URL
-    const sourceUrl = "https://whatsapp.com/channel/0029VadQrNI8KMqo79BiHr3lf"; // Channel link
+    const sourceUrl,
     const contactName = commandeOptions?.ms?.pushName || "Unknown Contact"; // Sender's name or "Unknown Contact"
 
     try {
@@ -24,8 +24,8 @@ zokou(
         ptt: true, // Send as a voice note
         contextInfo: {
           externalAdReply: {
-            title: `💦 Message from: ${contactName}\n🔥popkid Md Alive🔥`, // Your contact in WhatsApp status format
-            body: "Yoh don't disturb am active🥱 Tap here",
+            title: `💦SENDER: ${contactName}\n🔥popkid Md Alive🔥`, // Your contact in WhatsApp status format
+            body: "Yoh Don't Disturb Am Active🥱",
             thumbnailUrl: smallThumbnailUrl, // Small thumbnail displayed below
             mediaType: 1, // Indicate this is an image
             renderLargerThumbnail: true, // Ensure thumbnail is displayed in full
