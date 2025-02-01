@@ -30,7 +30,7 @@ zokou({
     'vcard': "BEGIN:VCARD\nVERSION:3.0\nFN:POPKID MD\nORG:POPKID MD Nexus;\nTEL;type=CELL;type=VOICE;waid=254111385747:+254 111 385 747\nEND:VCARD"
   };
   await _0x41d5d3.sendMessage(_0x4cfdc6, {
-    'text': "💀 *POPKID MD* 💀",
+    'text': "💀 *POPKID MD* 🔴 PONG: " + _0x526b71 💀",
     'contextInfo': _0x41d2b1,
     'contacts': {
       'displayName': "POPKID MD Verified Contact",
