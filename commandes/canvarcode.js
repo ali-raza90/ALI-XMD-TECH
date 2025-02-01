@@ -23,10 +23,6 @@ zokou({
     'externalAdReply': {
       'title': "Popkid_Md My Ultra Speed Response",
       'body': "Ping Results : " + _0x451c3b,
-      'sourceUrl': "https://whatsapp.com/channel/0029VadQrNI8KMqo79BiHr3l",
-      'thumbnailUrl': "https://i.ibb.co/n6rw805/694affc7ca5a5fb0cb58c2b4533f962d.jpg",
-      'mediaType': 0x1,
-      'showAdAttribution': false
     }
   };
   const _0x54ea81 = {
